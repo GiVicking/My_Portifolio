@@ -82,5 +82,55 @@
     object-fit: cover;
     height: 100%;
   }
+  @media all and (min-width:1000px){
+    body{
+        width: 1000px;
+        margin:auto;
+    }
+  }
+  @media all and (max-width:600px){
+    .conhecimentos{
+      display: inline;
+      width: 10rem;
+      }
+    .conhecimento:nth-child(1) {
+      margin-top: 1rem;
+      margin-bottom: 0;
+     }
+    .conhecimento:nth-child(2) {
+      margin-top: 1rem;
+      margin-bottom: 0;
+    }
+    .conhecimento:nth-child(3) {
+      margin-top: 1rem;
+      margin-bottom: 0;
+    }
+  .conhecimento:nth-child(4) {
+      margin-top: 1rem;
+      margin-bottom: 0;
+    }
+    .conhecimento:nth-child(5) {
+      margin-top: 1rem;
+      margin-bottom: 0;
+    }
+    .conhecimento:nth-child(6) {
+      margin-top: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .conhecimentos-img-wrapper img {
+      width: 12em;
+      margin-left: em;
+      background: #8d6255;
+      background: -webkit-linear-gradient(to right, #578566, #b67c6a); 
+      background: linear-gradient(to right, #5b8f6c, #af7f70);
+      padding: 0.5rem 8rem 0rem 7.5rem;
+    }
+    .conhecimento-header i{
+     
+      width: 3rem;
+      padding:0;
+      margin: 0;
+    }
+  }  
 
  
