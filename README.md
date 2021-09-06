@@ -15,6 +15,7 @@ O controle de tarefas desse projeto será realizado no GitHub
 
 :rocket: :up: atualização
 
+
 :desktop_computer: :beetle: correção de bugs
 
 :gear: :checkered_flag: realese

@@ -209,7 +209,8 @@ margin-left:2rem;
   }
 }
 @media all and (max-width:600px){
-  
+
+    
 .text {
   
     color:#3d5043;
@@ -223,26 +224,26 @@ margin-left:2rem;
     }
 .vicking{
 margin-top: 7rem;
-margin-left:0;
-margin-right: 2.5rem;
+margin-left:1rem;
+margin-right: 0rem;
 margin-bottom: 3.5rem;
 padding: 1.5rem 1.5rem 1rem 1rem;
 width: 23rem;
 }
 .par1{
-  margin-right: 2rem;
+  margin-right: 0.5rem;
   margin-left: 2rem;
 }
 .par2{
-  margin-right: 2rem;
+  margin-right: 0.5rem;
   margin-left: 2rem;
 }
 .par3{
-  margin-right: 2rem;
+  margin-right: 0.5rem;
   margin-left: 2rem;
 }
 .par4 {
-  margin-right: 2rem;
+  margin-right: 1.5rem;
   margin-left: 6rem;
   margin-bottom: 5rem;
   font-size: 1rem;
@@ -268,14 +269,15 @@ width: 23rem;
   .diferenciais li {
     margin-top:0.8rem ;
     list-style-type:none;
-    margin-left: 0rem;
+    margin-left: 3rem;
+    margin-right: 0;
   }
   
   .cursos-li {
    text-align: justify;
     margin-bottom:0;
-    margin-left:0;
-    margin-right: 0.5rem;
+    margin-left:2rem;
+    margin-right: 0;
   
   }
 
