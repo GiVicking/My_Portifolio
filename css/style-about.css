@@ -223,19 +223,24 @@ margin-left:2rem;
     border-bottom: 3px solid #3d5043;
     }
 .vicking{
+display: inline;
 margin-top: 7rem;
 margin-left:5rem;
 margin-right: 0rem;
-margin-bottom: 3.5rem;
+margin-bottom: 2rem;
 padding: 1.5rem 1.5rem 1rem 1rem;
 width: 23rem;
 }
 .par1{
-  margin-right: 0.5rem;
-  margin-left: 2rem;
+  display: inline;
+  margin-right: 0rem;
+  margin-left: 1rem;
+  width: 20rem;
+  margin-bottom: 20rem;
 }
 .par2{
-  margin-right: 0.5rem;
+  display: inline;
+  margin-right: 0rem;
   margin-left: 2rem;
 }
 .par3{
