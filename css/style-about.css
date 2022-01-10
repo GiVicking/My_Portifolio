@@ -14,7 +14,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   }
 
-
+  :root{
+    --font-primary: helvetica, sans-serif; 
+    --font-secundary: 'Courier New',monospace;
+    --font-action:"Muli",serif;
+}
 .vicking{
   width: 28rem;
   max-width: 100%;
@@ -28,8 +32,7 @@ body {
   background-color:  #FFEFBA; 
     background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  
     background: linear-gradient(to right, #FFFFFF, #FFEFBA); 
-  background-color: whitesmoke;
-  border: 1px solid lightgrey;
+    border: 1px solid lightgrey;
   border-radius: 5px;
 }
 .all{
@@ -45,8 +48,8 @@ body {
 
 /***************************paragraph***********************************/
 .text {
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 1.8rem;
+  font-family: var(--font-primary);
+  font-size: 2.2rem;
   color:#3d5043 ;
   width: 52rem;
   margin-top: 5rem;
@@ -57,42 +60,49 @@ body {
 
   text-align: justify ;
   text-indent: 1.5rem;
-  margin-bottom: 0.7rem;
+  margin-bottom: 0.5rem;
   margin-left: 3rem;
   margin-top: 5rem;
 }
 .par2{
   text-align: justify;
   text-indent: 1.5rem;
-  margin-bottom: 0.7rem;
+  margin-bottom: 0.5rem;
   margin-left: 3rem;
 }
 .par3{
   text-align: justify;
   text-indent: 1.5rem;
-  margin-bottom: 4em;
+  margin-bottom: 0.5em;
   margin-left: 3rem;
 }
+.par5{
+    text-align: justify;
+    text-indent: 1rem;
+    font-weight: bold;
+    margin-bottom: 4em;
+    margin-left: 3rem;
+  }
+
 .par4 {
   margin-bottom: 1rem;
   margin-left: 5rem;
   }
 
-.subtitulo-1{
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 1.8rem;
+  .subtitulo-1{
+  font-family: var(--font-primary) ;
+  font-size: 2.2rem;
   color:#3d5043 ;
   width: 52rem;
-  margin-top: 7.5rem;
+  margin-top: 7rem;
   margin-left: 3rem;
-  margin-bottom: 3rem;
   border-bottom: 3px solid #3d5043;
-
 }
+
 .subtitulo-2{
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 1.8rem;
-  color:#3d5043 ;
+  font-family: var(--font-primary);
+  font-size: 2.2rem;
+  color:#3d5043;
   width: 52rem;
   margin-top: 0;
   margin-left: 3rem;
@@ -100,8 +110,8 @@ body {
   border-bottom: 3px solid #3d5043;
 }
 .subtitulo-3 {
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 1.8rem;
+  font-family: var(--font-primary);
+  font-size: 2.2rem;
   color:#3d5043 ;
   width: 52rem;
   margin-top:4rem;
@@ -204,32 +214,54 @@ margin-left:2rem;
 
 /*------------------------------------------------------------------------*/
 
-@media all and (max-width:640px){
-
+@media all and (max-width:640px){}
+.section_photo{  
+    padding: 0 0 0 0;
+   margin-top: 3rem;
+}      
+.vicking{
+    width: 18rem;
+    margin-right: 3rem;
+    margin-left: 0rem;
+    margin-bottom: 3rem;
+    }
 
  .text {
-  font-size: 1.5rem;
-  color:#3d5043 ;
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+  margin-left: 0;
   width: 27rem;
-  margin-top: 3rem;
-  margin-left: 0rem;
-  border-bottom: 3px solid #3d5043;
+  text-align: center;
+  }
+
+.about_content {
+font-size: 1rem;
+  }
+
+.about_content:hover{
+  color:#2C7744;
+  background: none;
 }
 
 .par1{
 
   margin-right: 0rem;
-  margin-left: 4rem;
+  margin-left: 2rem;
   }
  
 .par2{
  
   margin-right: 0rem;
-  margin-left: 4rem;
+  margin-left: 2rem;
 }
 .par3{
   margin-right: 0rem;
-  margin-left: 4rem;
+  margin-left: 2rem;
+}
+.par5{
+  margin-right: 0;
+  margin-left: 2rem;
 }
 .par4 {
   margin-right: 1.5rem;
@@ -238,18 +270,23 @@ margin-left:2rem;
   font-size: 1rem;
   }
   .subtitulo-1{
-  font-size: 1.5rem;
-  width: 27rem;
-  margin-left: 0;
-  margin-top:8rem;
-  margin-bottom: 1rem;
-  }
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+    margin-left: 0;
+    width: 27rem;
+    text-align: center;
+ }
   .subtitulo-2 {
+    text-align: center;
+    font-size: 1.8rem;
     margin-top: 2rem;
     margin-left: 0;
     width: 27rem;
   }
   .subtitulo-3 {
+    font-size: 1.8rem;
+    text-align: center;
     margin-top: 2rem;
     margin-bottom: 2.5rem;
     margin-left: 0;
@@ -258,7 +295,7 @@ margin-left:2rem;
   .diferenciais li {
     margin-top:0.8rem ;
     list-style-type:none;
-    margin-left: 3rem;
+    margin-left: 2rem;
     margin-right: 0;
   }
   
@@ -304,4 +341,5 @@ font-size: 0.9rem;
   width: 2rem;
   height: 2rem;
   }
-}
+
+

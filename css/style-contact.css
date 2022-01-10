@@ -1,9 +1,11 @@
+:root{
+  --font-primary: helvetica, sans-serif; 
+  --font-secundary: 'Courier New',monospace;
+  --font-action:"Muli",serif;
+}
 .sessao-contato {
     width: 100%;
     height: 120vh;
-    background-color:  #FFEFBA; 
-    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  
-    background: linear-gradient(to right, #FFFFFF, #FFEFBA); 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -174,3 +176,36 @@
     cursor: pointer;
     grid-column: 2;
   }
+   /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+   @media all and (max-width:600px){
+
+
+    .sessao-contato {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+     
+    }
+    
+    .contato-wrapper {
+      width: 100%;
+      height: 30rem;
+      display: flex;
+      box-shadow: 0 2rem 3rem #272727;
+     
+    }
+    
+   
+    
+    .contato-right {
+      width: 65%;
+    padding: 1rem 3rem 3rem 3rem;
+    
+    }
+    
+    
+   }

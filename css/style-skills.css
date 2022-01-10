@@ -1,10 +1,15 @@
 
+:root{
+  --font-primary: helvetica, sans-serif; 
+  --font-secundary: 'Courier New',monospace;
+  --font-action:"Muli",serif;
+}
 .conhecimentos{
     display: grid;
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(8, 6rem);
     row-gap: .5rem;
-    margin-top: 0rem;
+    margin-top: 3rem;
     text-align: justify;
     margin-left: 1rem;
     padding: 2rem 2rem 2rem 2rem;
@@ -53,7 +58,7 @@
     }
  
 .conhecimento-header{
-      display: flex;
+    display: flex;
       align-items: center;
       color:#3d5043;
 }
@@ -87,23 +92,22 @@
   @media all and (max-width:600px){
     .conhecimentos{
       display: inline;
-      
       }
     .conhecimento:nth-child(1) {
      display: inline-block;
      width: 23em;
-      margin-top: 2rem;
-      margin-left:0.1rem;
-      margin-bottom: 2em;
-      }
+     margin-top: 2rem;
+     margin-bottom: 2em;
+    }
       .conhecimento:nth-child(2) {
         display: inline-block;
         width: 23em;
+        margin-left: 2rem;
          margin-top: 0.5rem;
-         margin-left:1.5rem;
          margin-bottom: 2.5em;
          }
          .conhecimento:nth-child(3) {
+          margin-left: 2rem;
           display: inline-block;
           width: 22em;
            margin-top: 0.5rem;
@@ -111,6 +115,7 @@
            margin-bottom: 2.5em;
            }
            .conhecimento:nth-child(4) {
+            margin-left: 2rem;
             display: inline-block;
             width: 22em;
              margin-top: 0.5rem;
@@ -118,6 +123,7 @@
              margin-bottom: 2.5em;
              }
              .conhecimento:nth-child(5) {
+              margin-left: 2rem;
               display: inline-block;
               width: 22em;
                margin-top: 0.5rem;

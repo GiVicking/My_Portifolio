@@ -1,3 +1,8 @@
+:root{
+  --font-primary: helvetica, sans-serif; 
+  --font-secundary: 'Courier New',monospace;
+  --font-action:"Muli",serif;
+}
 .sessao-projetos{
 margin: 0;
 
@@ -148,9 +153,7 @@ a{
     opacity: 1;
     
   }
-  .card:hover .card-img-wrapper img {
-    opacity: 0.8;
-  }
+  
   
   .card-info {
     margin-bottom: 0;
@@ -160,9 +163,8 @@ a{
     margin-left: 10.5rem;
     width: 17rem;
     height: 10rem;
-    padding: 1rem 1rem 1rem 1rem;
-   
-}
+    padding: 0rem 1rem 0rem 1rem;
+ }
     
   .card-info h2 {
    margin: 0;
@@ -199,10 +201,7 @@ a{
     opacity: 1;
     
   }
-  .card:hover .card-img-wrapper img {
-    opacity: 0.8;
-  }
-  
+ 
   .card-info {
     margin-bottom: 0;
     margin-top:0rem;
@@ -250,10 +249,7 @@ a{
     opacity: 1;
     
   }
-  .card:hover .card-img-wrapper img {
-    opacity: 0.8;
-  }
-  
+
   .card-info {
     margin-bottom: 0;
     margin-top:0rem;
@@ -284,3 +280,6 @@ a{
   }
 
   }  
+
+   
+  
